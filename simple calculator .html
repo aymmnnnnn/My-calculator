@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Mini Calculator</title>
+</head>
+
+<body style="background-color: #f3e8ff; font-family: Arial;">
+
+    <h1 style="color: #7b2cbf; background-color: #eadcf8; padding: 15px;">My Mini Calculator 🧮</h1>
+
+    <p style="color: #008c95;">Let's calculate something!</p>
+
+    <p id="add" style="color: #e6398f; font-size: 18px;"></p>
+    <p id="sub" style="color: #3867d6; font-size: 18px;"></p>
+    <p id="mul" style="color: #7b2cbf; font-size: 18px;"></p>
+    <p id="div" style="color: #008c72; font-size: 18px;"></p>
+
+    <script>
+        let num1 = 24;
+        let num2 = 6;
+
+        let add = num1 + num2;
+        let sub = num1 - num2;
+        let mul = num1 * num2;
+        let div = num1 / num2;
+
+        document.getElementById("add").innerHTML = "Addition result: " + add;
+        document.getElementById("sub").innerHTML = "Subtraction result: " + sub;
+        document.getElementById("mul").innerHTML = "Multiplication result: " + mul;
+        document.getElementById("div").innerHTML = "Division result: " + div;
+    </script>
+
+</body>
+
+</html>
+```
